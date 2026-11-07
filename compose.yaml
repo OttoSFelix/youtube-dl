@@ -1,0 +1,7 @@
+services:
+  downloader:
+    image: youtube-dl
+    container_name: yt-downloader
+    volumes:
+      - ./:/mydir
+ 
