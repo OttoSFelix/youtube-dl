@@ -1,5 +1,5 @@
 # Download content from YouTube in mp3 or mp4 format
-# Powered by ![docker](https://img.shields.io/badge/docker-257bd6?style=for-the-badge&logo=docker&logoColor=white)
+# Powered by ![docker](https://img.shields.io/badge/docker-257bd6?style=for-the-badge&logo=docker&logoColor=white) and [yt-dlp](https://github.com/yt-dlp/yt-dlp)
 
 ## Usage
 
