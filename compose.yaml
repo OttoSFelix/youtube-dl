@@ -1,7 +1,20 @@
 services:
-  downloader:
-    image: youtube-dl
-    container_name: yt-downloader
+  audio:
+    image: audio
+    container_name: yt-audio-downloader
+    build:
+      context: .
+      dockerfile: ./Dockerfile.audio
     volumes:
       - ./:/mydir
+  video:
+    image: video
+    container_name: yt-video-downloader
+    build:
+      context: .
+      dockerfile: ./Dockerfile.video
+    volumes:
+      - ./:/mydir
+
+
  
